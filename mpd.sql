@@ -68,7 +68,7 @@ insert into auteur (nom, prenom) values
 insert into lecteur (nom, prenom, email, cin, tel) values
 ('Ali', 'Karim', 'ali.karim@mail.com', 'AB123456', '0612345678'),
 ('Sara', 'Mouad', 'sara.mouad@mail.com', 'CD789012', '0698765432');
-insert into auteur_ouvrage value (1,1), (2,2);
+insert into auteur_ouvrage value (1,1), (2,2),(3,3) ,(4,4);
 insert into emprunt (date_emprunt, date_retour_prevue, date_retour_reel, id_ouvrage, id_lecteur) values
 ('2025-12-01', '2025-12-15','2025-12-17', 1, 1),
 ('2025-12-05', '2025-12-20', '2025-12-30', 2, 2);

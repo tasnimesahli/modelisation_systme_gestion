@@ -71,7 +71,7 @@ insert into lecteur (nom, prenom, email, cin, tel) values
 insert into auteur_ouvrage value (1,1), (2,2);
 insert into emprunt (date_emprunt, date_retour_prevue, date_retour_reel, id_ouvrage, id_lecteur) values
 ('2025-12-01', '2025-12-15','2025-12-17', 1, 1),
-('2025-12-05', '2025-12-20', '2025-12-304', 2, 2);
+('2025-12-05', '2025-12-20', '2025-12-30', 2, 2);
 insert into personnel (nom, prenom, email, mot_de_passe, id_chef) values
 ('Benzouina', 'Rachid', 'rachid.benzouina@mail.com', 'pass123', NULL),
 ('Haddad', 'Laila', 'laila.haddad@mail.com', 'pass456', 1);
